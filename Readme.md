@@ -13,7 +13,7 @@ Les classes permettent donc de décrire des objets, puis d'en créer.
 
 ### De quoi est composée une classe ?
 
-Une classe est composée d'un ensemble de _caractéristiques_. Celles-ci se présentent sous forme de **variables** qu'on appelle des **attributs** dans le contexte objet.
+Une classe est composée d'un ensemble de _caractéristiques_. Celles-ci se présentent sous forme de **variables** qu'on appelle des **attributs** dans le contexte objet. On les appelle aussi des **propriétés**.
 
 Une classe dispose aussi d'un _comportement_ qui représente ce que les objets issus de la classe pourront faire.
 
@@ -62,6 +62,52 @@ Lorsque l'objet n'a plus d'utilité, il est détruit. Plusieurs cas de figure en
 Dans tous les cas, il est possible de supprimer des objets manuellement.
 
 
+----------
+
+## Encapsulation
+
+Le principe de l'encapsulation est de résoudre la problématique que tout le monde puisse faire ce qu'il veut dans le code.
+
+Sans encapsulation, n'importe qui peut modifier : 
+
+- n'importe quoi ;
+- n'importe quand ;
+- n'importe où ;
+- n'importe comment ;
+
+Et donc les données sont accessibles partout, sans restriction et sans règle commune.
+
+Les problèmes qui peuvent découler de cette situation sont : 
+
+- les erreurs ne sont pas bloquées (car vous ne limitez pas l'accès)
+- les erreurs s'accumulent silencieusement
+- vous ne savez pas d'où proviennent les erreurs - elles sont souvent loin de leur cause
+
+Le principe qui en découle est de restreindre l'accès aux caractéristiques et aux méthodes, et on n'autorise que ce qui est nécessaire, et de manière contrôlée.
+
+> Restreindre ne signifie pas bloquer, mais guider
+
+
+
+
+
+
+
+
+
+
+
+tout le monde ne peut pas tout utiliser ?
+pour protéger des méthodes ?
+Restreindre l'accès aux caractéristiques et aux méthodes __pour les gens qui sont externes__
+
+
+
+
+
+
+
+
 
 
 
@@ -72,7 +118,7 @@ getter / setter
 constructeur
 
 ----------
-responsabilité / SRP
+responsabilité / SRP / SoC
 couplage
 cohésion
 API publique de classe

@@ -253,7 +253,7 @@ Quand doit-on choisir de faire une interface ?
 
 ## Couplage
 
-La notion de couplage représente le niveau de dépendance entre plusiuers classes.
+La notion de couplage représente le niveau de dépendance entre plusieurs classes.
 
 On distingue le **couplage faible**, qui représente une dépendance à une abstraction (interface par exemple) et le **couplage fort** lorsqu'une classe dépend directement de l'implémentation d'une autre classe.
 

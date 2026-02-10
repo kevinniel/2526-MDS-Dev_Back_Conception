@@ -87,8 +87,25 @@ Le principe qui en découle est de restreindre l'accès aux caractéristiques et
 
 > Restreindre ne signifie pas bloquer, mais guider
 
+En découle une problématique : Vous avez des objets avec des données et un état, et vous devez les lire et les modifier.
 
+### La visibilité
 
+On distingue 3 types de visibilité : 
+
+1. `public` : l'accès se fait de partout
+2. `protected` : l'accès se fait depuis la classe courante et les classes enfant
+3. `private` : l'accès se fait uniquement dans la classe
+
+### Les Getters et les Setters
+
+Ils permettent respectivement de consulter et de modifier des données de manière contrôlée.
+
+Le `getter` permet la consultation sans autoriser la modification de la donnée.
+
+Le `setter` permet la modification de la donnée, sans la consultation. Il permet par ailleurs de vérifier des contraintes, transformer des valeurs, refuser des modifications voire de déclencher des effets de bord.
+
+Exemple : <a href="exemples/getter_setter.php">fichier getter_setter.php</a>
 
 
 

@@ -11,6 +11,11 @@ class User
     private string $email;
     private int $age = 3;
 
+    public function __toString(): string
+    {
+        return "Mon utilisateur à " . $this->age . " ans.";
+    }
+
     public function getEmail(): string
     {
         return $this->email;
@@ -50,8 +55,11 @@ $user = new User();
 $user->setAge(120);
 
 
-echo('<pre>');
-echo('<code>');
-var_dump($user);
-echo('</code>');
-echo('</pre>');
+// echo('<pre>');
+// echo('<code>');
+// var_dump($user);
+// echo('</code>');
+// echo('</pre>');
+
+echo(120);
+echo($user);

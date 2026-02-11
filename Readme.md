@@ -63,6 +63,13 @@ Lorsque l'objet n'a plus d'utilité, il est détruit. Plusieurs cas de figure en
 
 Dans tous les cas, il est possible de supprimer des objets manuellement.
 
+## Static
+
+Les attributs et méthodes que l'on a vu jusqu'ici sont dits "**d'instance**" ou "**d'objet**". Sans instance, les attributs et les méthodes n'existent pas.
+
+Il existe des attributs et des méthodes dits "**de classe**" qui sont donc rattachés à la classe elle-même.
+
+On appelle cela des attributs statiques et des méthodes statiques (en anglais _static_).
 
 ----------
 
@@ -151,6 +158,8 @@ On redéfinit une méthode héritée pour modifier son comportement :
 - même action
 - même intention
 - MAIS une **logique interne différente**.
+
+Il existe une propriété `final` qui peut être attribuée soit aux attributs, soit aux méthodes, soit aux classes, qui permet d'empêcher toute surcharge.
 
 ### Le polymorphisme
 
@@ -432,18 +441,11 @@ Les tests utilisent des assertions pour vérifier la véracité d'une chose. (Un
 
 <img src="./images/cyclev.png">
 
+## C'est quoi les mocks ?
 
+On crée des données fictives pour simuler un comportement et tester notre code sans avoir besoin des dépendances externes.
 
-
-
-
-
-
-
-
-
-
-
+Le principe de base est de ne plus avoir de dépendance à des sources externes pour tester notre code. De la sorte, si une erreur se produit, c'est que c'est notre code qui 💩.
 
 ----------
 
@@ -502,18 +504,5 @@ Les tests utilisent des assertions pour vérifier la véracité d'une chose. (Un
 
 
 
-
-
-----------
-
-TESTS MOCKS
-
-TDD/TEST + comparatif cycle V
 
 Design patterns
-
-Composition / Agregation
-
-Static
-
-Final

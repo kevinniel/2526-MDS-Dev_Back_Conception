@@ -1,3 +1,50 @@
+# 🧪 TP Individuel – Comprendre et implémenter des Design Patterns
+
+## 🎯 Objectif pédagogique
+
+L’objectif de ce TP est de vérifier que vous **comprenez réellement** les Design Patterns, et que vous êtes capables :
+
+- D’en expliquer le fonctionnement
+- D’identifier leur problématique
+- De les implémenter vous-même
+- D’inventer un exemple original
+- De produire du code structuré et cohérent
+
+⚠️ **Attention : vous ne devez documenter QUE les Design Patterns que vous avez compris.**  
+Si vous ne comprenez pas un pattern, vous ne passez pas au suivant.
+
+---
+
+# 📚 Ressource obligatoire
+
+Vous devez vous baser exclusivement sur le site :
+
+👉 https://refactoring.guru/fr/design-patterns
+
+⚠️ Règles strictes :
+
+- ❌ Interdiction de copier les exemples du site  
+- ❌ Interdiction de reprendre les mêmes contextes (canard, éditeur graphique, transport, etc.)  
+- ❌ Interdiction de traduire un exemple existant  
+- ✅ Obligation d’inventer un contexte métier totalement différent  
+
+---
+
+# 🧱 Travail demandé
+
+Vous devez produire un dossier contenant :
+
+```txt
+/NomPrenom_TP_DesignPatterns
+    /Pattern1
+        explication.md
+        exemple.(langage)
+    /Pattern2
+        explication.md
+        exemple.(langage)
+    /Pattern3
+        ...
+```
 
 ---
 

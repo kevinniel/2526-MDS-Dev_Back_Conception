@@ -430,7 +430,7 @@ Les tests utilisent des assertions pour vérifier la véracité d'une chose. (Un
 - `performance / montée en charge` : permet de vérifier la stabilité
 - `sécuritaire` : la sécurité...
 
-<img src="../images/cyclev.png">
+<img src="./images/cyclev.png">
 
 
 

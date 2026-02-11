@@ -339,7 +339,21 @@ Le typage devient intelligent, mais surtout **prévisible**.
 
 Exemple : <a href="exemples/isp.php">fichier isp.php</a>
 
-## Dependency Injection Principle
+## Dependency Inversion Principle
+
+L'inversion de dépendance, c'est quand on inverse les dépendances. Exemple : 
+
+```txt
+OrderService → SmtpMailer
+```
+
+on inverse les dépendances : 
+
+```txt
+OrderService → MailerInterface ← SmtpMailer
+```
+
+Le mécanisme utilisé pour réaliser l'inversion de dépendance est l'injection de dépendance (_Dependency Injection_ ou _DI_)
 
 Qu'est-ce qu'on peut retrouver en dépendance dans un code ?
 
@@ -469,8 +483,15 @@ Les avantages :
 
 
 ----------
-SOLID
 
 TESTS MOCKS
 
 TDD/TEST + comparatif cycle V
+
+Design patterns
+
+Composition / Agregation
+
+Static
+
+Final

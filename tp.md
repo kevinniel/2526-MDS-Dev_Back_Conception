@@ -119,6 +119,8 @@ Vous devez en traiter **au minimum 4**, parmi :
 - Command
 - State
 
+⚠️ la liste n'est pas exhaustive !!!
+
 ⚠️ Vous ne devez traiter que ceux que vous avez compris.
 
 ---

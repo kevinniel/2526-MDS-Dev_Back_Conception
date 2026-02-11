@@ -410,6 +410,28 @@ Les avantages :
 
 > 🖕 L'injection de dépendance n'est pas un design pattern, c'est une façon de concevoir le code.
 
+----------
+
+# Rappels sur les tests
+
+## A quoi servent les tests ?
+
+- Vérifier le bon fonctionnement d'une application
+- Vérifier la non régression d'un projet
+
+Les tests utilisent des assertions pour vérifier la véracité d'une chose. (Une assertion est une proposition que l'on avance et que l'on soutient comme vraie.)
+
+## Quels types de tests existe-t-il ?
+
+- `manuels` : vous les faites tous les jours à la main quand vous faites du développement
+- `Unitaires` : on teste un comportement simple, unitaire, souvent sans aucune dépendance.
+- `Fonctionnels / Intégration` : on teste un ensemble d'unités.
+- `End-to-End / de bout en bout / Validation` : On simule un comportement d'utilisateur réel.
+- `performance / montée en charge` : permet de vérifier la stabilité
+- `sécuritaire` : la sécurité...
+
+<img src="../images/cyclev.png">
+
 
 
 

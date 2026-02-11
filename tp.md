@@ -102,22 +102,22 @@ Vous pouvez choisir librement :
 Vous devez en traiter **au minimum 4**, parmi :
 
 ## 🔹 Création
-- Singleton  
-- Factory Method  
+- **Singleton**  
+- **Factory Method**  
 - Abstract Factory  
-- Builder  
+- _Builder_
 
 ## 🔹 Structure
-- Adapter  
-- Decorator  
-- Facade  
+- _Adapter_  
+- **Decorator**  
+- _Facade_
 - Composite  
 
 ## 🔹 Comportement
-- Strategy  
-- Observer  
-- Command  
-- State  
+- _Strategy_
+- **Observer**
+- Command
+- State
 
 ⚠️ Vous ne devez traiter que ceux que vous avez compris.
 

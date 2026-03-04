@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Bulbizarre",
+        "types": ["Plante", "Poison"],
+        "pv": 45,
+        "coeff": 120,
+        "attack": 49,
+        "attackspe": 49,
+        "defense": 49,
+        "defensespe": 49,
+        "learnableCapacities": ["Charge", "Fouet Lianes", "Poudre Dodo", "Tranch'Herbe"]
+    },
+    {
+        "id": 4,
+        "name": "Salameche",
+        "types": ["Feu"],
+        "pv": 39,
+        "coeff": 125,
+        "attack": 52,
+        "attackspe": 49,
+        "defense": 43,
+        "defensespe": 49,
+        "learnableCapacities": ["Griffe", "Flammeche", "Rugissement", "Crocs Feu"]
+    },
+    {
+        "id": 7,
+        "name": "Carapuce",
+        "types": ["Eau"],
+        "pv": 44,
+        "coeff": 118,
+        "attack": 48,
+        "attackspe": 49,
+        "defense": 65,
+        "defensespe": 49,
+        "learnableCapacities": ["Charge", "Pistolet a O", "Repli", "Morsure"]
+    },
+    {
+        "id": 25,
+        "name": "Pikachu",
+        "types": ["Electrik"],
+        "pv": 35,
+        "coeff": 130,
+        "attack": 55,
+        "attackspe": 49,
+        "defense": 40,
+        "defensespe": 49,
+        "learnableCapacities": ["Eclair", "Vive-Attaque", "Mimi-Queue", "Fatal-Foudre"]
+    },
+    {
+        "id": 39,
+        "name": "Rondoudou",
+        "types": ["Normal", "Fee"],
+        "pv": 115,
+        "coeff": 110,
+        "attack": 45,
+        "attackspe": 49,
+        "defense": 20,
+        "defensespe": 49,
+        "learnableCapacities": ["Berceuse", "Torgnoles", "Ecras'Face", "Voix Enjoleuse"]
+    },
+    {
+        "id": 52,
+        "name": "Miaouss",
+        "types": ["Normal"],
+        "pv": 40,
+        "coeff": 117,
+        "attack": 45,
+        "attackspe": 49,
+        "defense": 35,
+        "defensespe": 49,
+        "learnableCapacities": ["Griffe", "Morsure", "Combo-Griffe", "Jackpot"]
+    },
+    {
+        "id": 54,
+        "name": "Psykokwak",
+        "types": ["Eau"],
+        "pv": 50,
+        "coeff": 116,
+        "attack": 52,
+        "attackspe": 49,
+        "defense": 48,
+        "defensespe": 49,
+        "learnableCapacities": ["Pistolet a O", "Choc Mental", "Grincement", "Bulles d'O"]
+    },
+    {
+        "id": 92,
+        "name": "Fantominus",
+        "types": ["Spectre", "Poison"],
+        "pv": 30,
+        "coeff": 128,
+        "attack": 35,
+        "attackspe": 49,
+        "defense": 30,
+        "defensespe": 49,
+        "learnableCapacities": ["Lechouille", "Onde Folie", "Ball'Ombre", "Detonation"]
+    },
+    {
+        "id": 133,
+        "name": "Evoli",
+        "types": ["Normal"],
+        "pv": 55,
+        "coeff": 122,
+        "attack": 55,
+        "attackspe": 49,
+        "defense": 50,
+        "defensespe": 49,
+        "learnableCapacities": ["Charge", "Jet de Sable", "Morsure", "Vive-Attaque"]
+    },
+    {
+        "id": 143,
+        "name": "Ronflex",
+        "types": ["Normal"],
+        "pv": 160,
+        "coeff": 108,
+        "attack": 110,
+        "attackspe": 49,
+        "defense": 65,
+        "defensespe": 49,
+        "learnableCapacities": ["Charge", "Plaquage", "Repos", "Machoire"]
+    }
+]

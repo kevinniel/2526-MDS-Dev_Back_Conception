@@ -322,6 +322,13 @@ Exemple attendu :
 - si la couleur courante est `PieceColor::WHITE`, la méthode retourne `PieceColor::BLACK`
 - si la couleur courante est `PieceColor::BLACK`, la méthode retourne `PieceColor::WHITE`
 
+### Indications
+
+Dans une méthode d'enum en PHP :
+
+- `$this` désigne le cas courant de l'enum ;
+- `self::WHITE` et `self::BLACK` désignent les cas possibles de cet enum.
+
 ### Exemple d'utilisation
 
 Cette méthode servira dans `Game` pour changer facilement de joueur :

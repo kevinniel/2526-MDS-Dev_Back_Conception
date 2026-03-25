@@ -404,6 +404,31 @@ abstract protected function isValidMovementShape(Position $target): bool
 protected function canCapture(Board $board, Position $target): bool
 ```
 
+### Rôle de `render()`
+
+La méthode `render()` doit retourner une représentation texte de l'objet.
+
+### Attendu pour `Piece::render()`
+
+La méthode doit retourner une chaîne courte représentant la pièce, utilisable dans l'affichage du plateau.
+
+Convention imposée :
+
+- roi blanc : `"K"`
+- reine blanche : `"Q"`
+- tour blanche : `"R"`
+- fou blanc : `"B"`
+- cavalier blanc : `"N"`
+- pion blanc : `"P"`
+- roi noir : `"k"`
+- reine noire : `"q"`
+- tour noire : `"r"`
+- fou noire : `"b"`
+- cavalier noir : `"n"`
+- pion noir : `"p"`
+
+La méthode `Board::render()` devra utiliser `Piece::render()` pour construire l'affichage texte du plateau.
+
 ### Règle de conception imposée
 
 Vous devez appliquer ici un Template Method :

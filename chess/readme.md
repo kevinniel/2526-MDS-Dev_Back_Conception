@@ -445,7 +445,6 @@ Dans cet ordre :
 2. la forme du déplacement est valide ;
 3. la case cible n'est pas occupée par un allié ;
 4. si la pièce n'est pas un cavalier, le chemin est libre ;
-5. si c'est un pion, les règles spéciales du pion sont respectées.
 
 Vous ne devez pas changer cet ordre.
 

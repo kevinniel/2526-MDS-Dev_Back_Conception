@@ -554,7 +554,7 @@ $this->pieces['6:4'] = $piece;
 ### Méthodes imposées
 
 ```php
-// Permet de placer la pière AU DEBUT du jeu
+// Permet de placer la pièce AU DEBUT du jeu
 public function placePiece(Piece $piece): void
 public function getPieceAt(Position $position): ?Piece
 public function hasPieceAt(Position $position): bool

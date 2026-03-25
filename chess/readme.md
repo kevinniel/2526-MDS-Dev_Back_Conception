@@ -268,7 +268,9 @@ public function __construct(int $row, int $column)
 public function getRow(): int
 public function getColumn(): int
 public function equals(Position $other): bool
+// Transforme une position en chaine de caractère (exemple : Position(6, 4) -> "6:4" )
 public function toKey(): string
+<!-- Fait la transformation inverse (exemple : "6:4" -> Position(6, 4) ) -->
 public static function fromKey(string $key): Position
 ```
 
